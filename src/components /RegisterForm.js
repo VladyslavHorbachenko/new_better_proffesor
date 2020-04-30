@@ -74,7 +74,7 @@ const RegisterForm = () => {
         // setFormData({ name: "", email: "",password: ""});
         axios.post('https://betterprofessorapp.herokuapp.com/api/auth/register', formData)
             .then(res => {
-                window.location.href = '/#/login'
+                window.location = '/#/login'
                 console.log(res.data)
             } )
             .catch(err => console.log(err.response));

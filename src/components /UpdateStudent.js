@@ -34,7 +34,7 @@ function UpdateStudent(props) {
             .put(`/api/students/${id}`, { name: item.name, email: item.email })
             .then(res => {
                 // console.log(res)
-                window.location.href ="/#/student-list"
+                window.location ="/#/student-list"
             })
             .catch(err => console.log(err))
     }
