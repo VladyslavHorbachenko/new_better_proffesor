@@ -42,11 +42,11 @@ function App() {
           </ul>
 
           <Switch>
-            <PrivateRoute  path="/student-add" component={AddStudentComponent} />
-            <Route  path="/" component={LoginPage}/>
-            <Route  path="/register" component={RegisterPage}/>
-            <PrivateRoute  path="/student-list" component={StudentList}/>
-            <PrivateRoute path="/update-student/:id" component={UpdateStudent}/>
+            <PrivateRoute  exact path="/student-add" component={AddStudentComponent} />
+            <Route exact path="/" component={LoginPage}/>
+            <Route  exact path="/register" component={RegisterPage}/>
+            <PrivateRoute exact  path="/student-list" component={StudentList}/>
+            <PrivateRoute exact path="/update-student/:id" component={UpdateStudent}/>
 
             <Route component={LoginPage} />
 
