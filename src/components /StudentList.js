@@ -16,7 +16,7 @@ function StudentList(props) {
     },[])
 
     const onClickEditHandler = (item) => {
-        window.location.href=`/update-student/${item.id}`
+        window.location =`/update-student/${item.id}`
     }
 
     const onClickDeleteHandler = (ev, item) => {
@@ -28,7 +28,7 @@ function StudentList(props) {
               let a =  window.confirm("Do you wanna delete" + " " + item.name)
                 if (a === false) return  0;
                 else{
-                    window.location.href="/student-list"
+                    window.location ="/student-list"
                 }
             })
             .catch(err => console.log(err))

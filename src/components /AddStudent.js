@@ -21,7 +21,7 @@ function AddStudent() {
             .post('/api/students', newStudent)
             .then(res => {
                 console.log(res)
-                window.location.href = '/student-list'
+                window.location = '/student-list'
             })
             .catch(err => console.log(err))
 

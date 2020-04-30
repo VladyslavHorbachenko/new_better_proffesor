@@ -35,7 +35,7 @@ const LoginForm = (props) => {
                 localStorage.setItem('token', res.data.token);
                 localStorage.setItem('name', res.data.name);
                 console.log(props.history);
-                window.location.href = '/student-list'
+                window.location = '/student-list'
                 switchRoute();
 
                 // props.history.push('/student-list');
