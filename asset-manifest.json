@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/new_better_proffesor/static/css/main.dc69cbfd.chunk.css",
+    "main.js": "/new_better_proffesor/static/js/main.14c0d13d.chunk.js",
+    "main.js.map": "/new_better_proffesor/static/js/main.14c0d13d.chunk.js.map",
+    "runtime-main.js": "/new_better_proffesor/static/js/runtime-main.be65c15b.js",
+    "runtime-main.js.map": "/new_better_proffesor/static/js/runtime-main.be65c15b.js.map",
+    "static/js/2.ca8565b5.chunk.js": "/new_better_proffesor/static/js/2.ca8565b5.chunk.js",
+    "static/js/2.ca8565b5.chunk.js.map": "/new_better_proffesor/static/js/2.ca8565b5.chunk.js.map",
+    "index.html": "/new_better_proffesor/index.html",
+    "precache-manifest.d1085664c8a08f1c13c8f64eccc0e187.js": "/new_better_proffesor/precache-manifest.d1085664c8a08f1c13c8f64eccc0e187.js",
+    "service-worker.js": "/new_better_proffesor/service-worker.js",
+    "static/css/main.dc69cbfd.chunk.css.map": "/new_better_proffesor/static/css/main.dc69cbfd.chunk.css.map",
+    "static/js/2.ca8565b5.chunk.js.LICENSE.txt": "/new_better_proffesor/static/js/2.ca8565b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be65c15b.js",
+    "static/js/2.ca8565b5.chunk.js",
+    "static/css/main.dc69cbfd.chunk.css",
+    "static/js/main.14c0d13d.chunk.js"
+  ]
+}
