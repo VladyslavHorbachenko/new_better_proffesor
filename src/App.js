@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route,HashRouter, Link, Switch } from 'react-router-dom'
 import './App.css';
 import LoginPage from "./components /LoginPage";
 import AddStudentComponent from "./components /AddStudentComponent";
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
 
         <div  className="forma_links" style={{textAlign: 'center'}}>
           <ul className="links">
@@ -52,7 +52,7 @@ function App() {
 
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
